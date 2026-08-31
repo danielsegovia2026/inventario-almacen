@@ -20,7 +20,7 @@ const PALETTE = {
 };
 
 function money(n) {
-  return Number(n || 0).toLocaleString("es-MX", { style: "currency", currency: "USD" });
+  return Number(n || 0).toLocaleString("es-AR", { style: "currency", currency: "ARS" });
 }
 
 export default function App() {
